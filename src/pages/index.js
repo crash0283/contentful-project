@@ -40,9 +40,9 @@ const IndexPage = () => {
               <img src={node.coverImage.fixed.src} alt="pics"/>
               <h2>{node.title}</h2>
               <h3>Written By {node.author}</h3>
-              <h4>Published {node.yearPublished}</h4>
+              <h4>&copy;{node.yearPublished}</h4>
               <p>{node.overview.overview}</p>
-              <hr/>
+              <hr style={{height: "3px", color: "black"}}/>
             </div>
           )
         })
