@@ -42,7 +42,7 @@ const IndexPage = () => {
               <h3>Written By {node.author}</h3>
               <h4>&copy;{node.yearPublished}</h4>
               <p>{node.overview.overview}</p>
-              <hr style={{height: "3px", color: "black"}}/>
+              <hr style={{backgroundColor:"black", width: "100%", height: "6px"}} />
             </div>
           )
         })
