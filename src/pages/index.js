@@ -36,7 +36,7 @@ const IndexPage = () => {
       {
         data.allContentfulBook.edges.map(({node}) => {
           return (
-            <div style={{display: "flex", justifyContent: "space-evenly"}}>
+            <div style={{display: "flex", flexFlow: "column wrap", justifyContent: "space-evenly", alignContent: "space-evenly"}}>
               <img src={node.coverImage.fixed.src} alt="pics"/>
               <h2>{node.title}</h2>
               <h3>Written By {node.author}</h3>
