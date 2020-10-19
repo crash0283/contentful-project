@@ -48,7 +48,7 @@ const IndexPage = () => {
         }
         )
       }
-        <form name="contact" netlify>
+        <form name="contact" method="POST" netlify>
           <input type="hidden" name="form-name" value="contact" />
           <label>Email: <input type="email" placeholder="Enter Email" name="email"/></label>
           <label>Name: <input type="text" placeholder="Enter Name" name="name"/></label>
