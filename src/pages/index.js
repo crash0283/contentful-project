@@ -45,8 +45,14 @@ const IndexPage = () => {
               <hr style={{backgroundColor:"black", width: "100%", height: "6px"}} />
             </div>
           )
-        })
+        }
+        )
       }
+        <form name="contact" netlify>
+          <label>Email: <input type="email" placeholder="Enter Email" name="email"/></label>
+          <label>Name: <input type="text" placeholder="Enter Name" name="name"/></label>
+          <input type="submit" value="Submit"/>
+        </form>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </Layout>
