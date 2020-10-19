@@ -52,6 +52,11 @@ const IndexPage = () => {
           <input type="hidden" name="form-name" value="contact" />
           <label>Email: <input type="email" placeholder="Enter Email" name="email"/></label>
           <label>Name: <input type="text" placeholder="Enter Name" name="name"/></label>
+          <select name="drop" id="">
+            <option value="apple">Apple</option>
+            <option value="cherry">Cherry</option>
+            <option value="orange">Orange</option>
+          </select>
           <input type="submit" value="Submit"/>
         </form>
       <Link to="/page-2/">Go to page 2</Link> <br />
